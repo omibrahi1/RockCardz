@@ -1,0 +1,159 @@
+@font-face {
+    font-family: RockFont;
+    src: url("Metaloxcide.otf");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.masthead {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-title {
+    margin: 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  /* keeps them on one row */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto; /* allows scrolling if screen is too small */
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.fixes {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.fixes h3 {
+    font-family: RockFont;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+}
+@font-face {
+    font-family: RockFont;
+    src: url("Metaloxcide.otf");
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.masthead {
+    background: rgb(230, 221, 221);
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.site-title {
+    color: white;
+    font-family: RockFont;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    width: 280px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h4 {
+    font-family: RockFont;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.card p {
+    font-size: 0.9em;
+}
+
+.fixes {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.fixes h3 {
+    font-family: RockFont;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+}
